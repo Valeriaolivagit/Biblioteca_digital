@@ -71,3 +71,6 @@ Opcion 2:
 3. Configurar Apache Tomcat
 4. Crear la base de datos en MySQL 
 5. Ejecutar el proyecto en el servidor
+
+# Video demostrativo
+https://drive.google.com/file/d/1X8E-8yJA8DgU4BMEmF9CJZf2Eb7SpvOA/view?usp=sharing
