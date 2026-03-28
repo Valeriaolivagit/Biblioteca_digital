@@ -1,0 +1,7 @@
+com.bibliotecadigital.controllers
+com.bibliotecadigital.dao
+com.bibliotecadigital.entities
+com.bibliotecadigital.Filter
+com.bibliotecadigital.services
+com.bibliotecadigital.services.dtos
+com.bibliotecadigital.utils

@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(231, 248, 249) !important;
+}
+
+.card {
+    max-width: 450px;
+    width: 100%;
+}
+
+.h-color {
+    color: #0C304A;
+}
+
+.card-bg-head {
+    background-color: rgb(224, 251, 247)
+}
+
+.card-bg-body {
+    background-color: rgb(246, 255, 255);
+}
+
+.nav-bar-bg {
+    background-color: #e1f0f2;
+    background-image: linear-gradient(to bottom, #ffffff, #a9eae7, #4dbfce);
+    border-bottom: 2px solid #2aadbe
+}
+
+.nav-link {
+    color: #014d80 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #011b2e !important;
+}
+
+.nav-link-btn {
+    color: #00375e !important;
+}
+
+.btn-search-outline {
+    color: #0C304A;
+    border-color: #0C304A;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-search-hover {
+    background-color: #0C304A;
+    color: #ffffff;
+    border-color: #0C304A;
+}
+
+.btn-custom-hover:hover {
+    color: #ebebeb;
+    border-color: #023559;
+
+}
+
+.btn-custom {
+    color: #02243d;
+    background-color: #5dc1b8;
+    border-color: #0C304A;
+
+}
+
+.form-floating.position-relative .form-control {
+    padding-right: 2.5rem;
+}
+
+.eyestyle {
+    position: absolute;
+    top: 45%;
+    right: 12px;
+    transform: translateY(-50%);
+    cursor: pointer !important;
+    z-index: 10;
+    font-size: 1.3rem;
+    color: #02243d;
+}
+
+.tooltip-inner {
+    background-color: rgb(230, 254, 254);
+    color: rgb(3, 3, 68);
+    border: 2px solid #0C304A;
+    border-radius: 4px;
+}
+
