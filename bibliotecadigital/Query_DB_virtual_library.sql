@@ -1,0 +1,35 @@
+CREATE DATABASE virtual_library;
+
+CREATE TABLE users (
+user_id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+firstName VARCHAR (45) NOT NULL,
+lastName VARCHAR (45) NOT NULL,
+email VARCHAR (150) NOT NULL UNIQUE,
+password VARCHAR (255) NOT NULL
+);
+
+CREATE TABLE books (
+book_id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+title VARCHAR (255) NOT NULL,
+author VARCHAR (255) NOT NULL,
+description VARCHAR (255) NOT NULL,
+quantity int NOT NULL
+);
+
+CREATE TABLE loan (
+loan_id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+book_id int NOT NULL,
+user_id int NOT NULL,
+loan_date DATE DEFAULT(CURRENT_DATE),
+return_date DATE NULL,
+status VARCHAR (45) NOT NULL
+);
+
+SELECT *
+FROM users;
+
+SELECT *
+FROM books;
+
+SELECT *
+FROM loan;

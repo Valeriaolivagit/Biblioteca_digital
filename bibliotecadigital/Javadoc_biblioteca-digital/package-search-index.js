@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"com.bibliotecadigital.controllers"},{"l":"com.bibliotecadigital.dao"},{"l":"com.bibliotecadigital.entities"},{"l":"com.bibliotecadigital.Filter"},{"l":"com.bibliotecadigital.services"},{"l":"com.bibliotecadigital.services.dtos"},{"l":"com.bibliotecadigital.utils"}];updateSearchResults();
